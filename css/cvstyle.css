@@ -13,8 +13,7 @@ body {
 }
 
 .btn {
-    /* display: inline-block; */
-    margin: 30px 0 0;
+    margin: 100px auto 0;
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;
@@ -28,28 +27,22 @@ i {
 
 .container {
     width: 900px;
-    margin: 100px auto;
+    margin: 20px auto;
     border-radius: 5px;
-    /* border: 1px solid #000; */
     background-color: #fff;
     box-shadow: 5px 0 15px rgba(0, 0, 0, 0.15);
     display: flex;
-
 }
 
 .container .side {
-    /* position:fixed; */
-    width: 300px;
+    width: 40%;
     padding: 15px;
     background-color: #305b83;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    row-gap: 20px;
-    overflow: hidden;
 }
 
 .container .side .name {
@@ -61,28 +54,34 @@ i {
 }
 
 .container .side .name .img-box {
-    /* width: 100%; */
-    height: 285px;
-    margin: 20px;
-    margin-bottom: 0;
+    width: 100%;
+    margin: 20px 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.container .side .name .img-box img {
-    width: 230px;
+.container .side .name .img-box i{
+    font-size: 100PX;
+    color: #367ec1ed;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+/* .container .side .name .img-box img {
+    width: 90%;
     max-height: 270px;
     border-radius: 50%;
     object-fit: cover;
-}
+} */
 
 .name h2 {
-    text-transform: uppercase;
-    font-size: 1.1em;
-    color: #fff;
+    text-align: center;
 }
 
 h4 {
     text-transform: uppercase;
     color: #ccc;
+    text-align: center;
 }
 
 hr {
@@ -104,7 +103,7 @@ h2 {
     font-size: 1em;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     letter-spacing: 1px;
 }
 
@@ -120,8 +119,6 @@ h2 {
 .container .side .contact ul li i {
     color: #a5b5eb;
     font-size: 0.8em;
-    /* margin-right: 10px; */
-    /* font-weight:100; */
     padding: 0;
 }
 
@@ -137,24 +134,17 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    row-gap: 15px;
+    row-gap: 5px;
     margin-bottom: 20px;
 }
 
-/* .education h2{
-    color:#fff;
-    font-size:1em;
-    font-weight: 800;
-    text-transform:uppercase;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-} */
 .education .edu-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    row-gap: 5px
+    row-gap: 5px;
+    margin-bottom: 5px;
 }
 
 .education .edu-container .year {
@@ -181,31 +171,23 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    row-gap: 15px;
     margin-bottom: 20px;
 }
 
-/* .language h2{
-    color:#fff;
-    font-size:1em;
-    font-weight: 700;
-    text-transform:uppercase;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-} */
 .language .lang-bar {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    row-gap: 5px;
+    margin-bottom: 10px;
 }
 
 .language .lang-bar .title {
     color: #d7dee5;
     font-family: sans-serif;
     font-weight: 100;
+    margin-bottom: 5px;
 }
 
 .language .lang-bar .bar {
@@ -237,7 +219,7 @@ h2 {
 
 
 .container .main {
-    width: 600px;
+    width: 60%;
     padding: 25px;
     display: flex;
     justify-content: flex-start;
@@ -253,17 +235,12 @@ h2 {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    row-gap: 15px;
-    margin-bottom: 20px;
+    row-gap: 5px;
+    margin-bottom: 5px;
 }
 
 .main h2 {
     color: rgb(5, 37, 63);
-    font-size: 1.2em;
-    /* font-size:1.1em;
-    font-weight: 800;
-    text-transform:uppercase;
-    letter-spacing: 1px; */
     margin-bottom: 5px;
 }
 
@@ -280,7 +257,7 @@ h2 {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    row-gap: 18px;
+    row-gap: 5px;
 }
 
 .experiance .table {
@@ -289,6 +266,7 @@ h2 {
     justify-content: space-between;
     align-items: flex-start;
     column-gap: 15px;
+    margin-bottom: 10px;
 }
 
 .experiance .table .period {
@@ -298,7 +276,6 @@ h2 {
     align-items: flex-start;
     flex-direction: column;
     padding-top: 5px;
-    ;
     overflow: none;
 }
 
@@ -325,7 +302,7 @@ h2 {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    row-gap: 35px;
+    row-gap: 5px;
 }
 
 .proffissional .skill-bar {
@@ -333,15 +310,13 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-direction: column; */
-    row-gap: 5px;
     column-gap: 20px;
+    margin-bottom: 10px;
 }
 
 .proffissional .skill-bar .skill-title {
     width: 20%;
     color: #2220207a;
-    /* font-family: 'Popins'; */
     font-size: 0.9em;
     font-weight: Bold;
 
@@ -351,7 +326,6 @@ h2 {
     width: 80%;
     height: 10px;
     background-color: #d7dee5;
-    ;
     border-radius: 4px;
     position: relative
 }
@@ -387,25 +361,50 @@ h2 {
     width: 70%;
 }
 
+.proffissional .also{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.proffissional .also li{
+    display: flex;
+    align-items: center;
+}
+
+.proffissional .also li i {
+    color: #2196f3;
+}
+
+.proffissional .also li label{
+    color: #2220207a;
+    font-size: 0.8em;
+    font-weight: Bold;
+}
+
 .interest {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 30px;
-    row-gap: 10px;
 }
 
 .interest .habit {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .interest .habit li {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .interest .habit li i {
@@ -415,7 +414,8 @@ h2 {
 .interest .habit li label {
     color: #2220207a;
     font-size: 0.8em;
-    margin-left: 10px;
+    text-align: center;
+    text-wrap: wrap;
 }
 
 /* ------------------- custom scrollbar --------------------- */
@@ -425,7 +425,6 @@ h2 {
 }
 
 ::-webkit-scrollbar-track {
-    /* background-color: #3b7bc4; */
     background-color: transparent;
 }
 
@@ -433,4 +432,66 @@ h2 {
     box-shadow: 0 0 10px #fff;
     background: linear-gradient(#004489c4, #9aa1af, #003a78a3);
     border-radius: 10px;
+}
+
+
+@media (max-width:900px) {
+    .container{
+        width: 80%;
+    }
+    .container .main{
+        padding: 17px;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .interest .habit li {
+        width: 25%;
+        flex-direction: column;
+    }
+}
+ @media (max-width:650px) {
+    .btn{
+        margin-top: 20px;
+    }
+    .container{
+        width:98%;
+    }
+    .container .main{
+        padding: 10px;
+    }
+    .main .profile{
+        row-gap: 5px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+    .experiance .table {
+        flex-direction: column;
+    }
+    .experiance .table .period{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        margin-bottom: 5px;
+    }
+    .experiance .table .detials p {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:470px) {
+    .container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .container .side{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .container .main{
+        width: 90%;
+    }
 }
